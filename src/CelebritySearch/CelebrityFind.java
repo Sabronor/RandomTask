@@ -3,7 +3,12 @@ package CelebritySearch;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+/*
+Task
+In a party of N people, only one person is known to everyone. Such a person may be present in the party, if yes,
+(s)he doesn’t know anyone in the party. We can only ask questions like “does A know B? “.
+Find the celebrity.
+ */
 public class CelebrityFind {
     public static void main(String[] args) {
         Person celeb = null;
